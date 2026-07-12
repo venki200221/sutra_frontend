@@ -77,7 +77,7 @@ export default function DemoForm({ open, onClose }) {
               </p>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="space-y-5">
+            <form onSubmit={handleSubmit} action="https://send.pageclip.co/XqysqrSeABXPkbWHcEsNuhBU4g7CD9Pt/contactForm" className="space-y-5" method="post">
               <div>
                 <label className="mb-2 block text-sm font-medium text-slate-700" htmlFor="demo-name">
                   Name
